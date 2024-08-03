@@ -8,11 +8,13 @@ body {
 .postcard {
 	background: white;
 	width: 400px;
-	height: 300px;
+	height: 400px;
 	margin: auto;
 }
 .postcard-header {
 	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 .postcard-header img {
 	width: 50px;
@@ -28,4 +30,10 @@ body {
 .body-left,
 .body-right {
 	padding: 5px;
+}
+.body-right input {
+	border-bottom: grey;
+}
+.body-left p {
+	font-size: 15px;
 }
