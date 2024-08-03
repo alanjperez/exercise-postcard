@@ -25,3 +25,7 @@ body {
 .postcard-body {
 	display: flex;
 }
+.body-left,
+.body-right {
+	padding: 5px;
+}
