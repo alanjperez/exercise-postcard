@@ -33,7 +33,16 @@ body {
 }
 .body-right input {
 	border-bottom: grey;
+	text-decoration: underline;
+	font-size: 12px;
 }
 .body-left p {
 	font-size: 15px;
+}
+.postcard-footer {
+	text-align: center;
+	padding: 15px;
+}
+button {
+	background-color: rgb(24, 141, 150);
 }
